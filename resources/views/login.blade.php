@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-  <title>SiAkad Login Portal</title>
+  <title>EDUAS Login Portal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="fa fa-user-o"></span>
             </div>
-            <h3 class="text-center mb-4">Login Portal<br>Sistem Informasi Akademik</h3>
+            <h3 class="text-center mb-4">Login Portal<br>EDUAS (Educational Academic System)</h3>
             <form action="#" class="login-form" method="POST">
               @csrf
               @method('POST')

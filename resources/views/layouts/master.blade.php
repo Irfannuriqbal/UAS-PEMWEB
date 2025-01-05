@@ -10,7 +10,7 @@
   <meta name="author" content="pixelstrap">
   <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
   <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
-  <title>SiAkad - @yield('title')</title>
+  <title>EDUAS - @yield('title')</title>
   @include('layouts.css')
   @yield('style')
 </head>

@@ -1,5 +1,5 @@
 <header class="main-nav">
-    <div class="logo-wrapper"><a href="{{ route('dashboard.index') }}">Siakad</a></div>
+    <div class="logo-wrapper"><a href="{{ route('dashboard.index') }}">EDUAS</a></div>
     <div class="logo-icon-wrapper"><a href="{{ route('dashboard.index') }}"><img class="img-fluid"
                 src="{{ asset('assets/images/logo/logo-icon.png') }}" alt=""></a></div>
     <nav>
